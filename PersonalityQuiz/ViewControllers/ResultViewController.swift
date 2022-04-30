@@ -12,8 +12,9 @@ class ResultViewController: UIViewController {
     @IBOutlet var resultLable: UILabel!
     @IBOutlet var resultDescriptionLable: UILabel!
     
+    private var result = ""
+    
     var answers: [Answer]!
-    var result = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
