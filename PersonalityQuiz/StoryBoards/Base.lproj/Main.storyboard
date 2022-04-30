@@ -213,17 +213,17 @@
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Zvp-UV-oLo">
                                         <rect key="frame" x="-2" y="0.0" width="378" height="31"/>
                                     </slider>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="184" translatesAutoresizingMaskIntoConstraints="NO" id="Q3G-sN-Cx4">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="184" translatesAutoresizingMaskIntoConstraints="NO" id="Q3G-sN-Cx4">
                                         <rect key="frame" x="0.0" y="59.000000000000007" width="374" height="20.333333333333336"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LyG-Jt-as0">
-                                                <rect key="frame" x="0.0" y="0.0" width="95" height="20.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="58" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXf-pg-ly9">
-                                                <rect key="frame" x="279" y="0.0" width="95" height="20.333333333333332"/>
+                                                <rect key="frame" x="242" y="0.0" width="132" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -336,7 +336,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Результат" id="khk-5R-2YG">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="Ufx-fl-GUp">
+                        <barButtonItem key="rightBarButtonItem" title="Завершить" id="Ufx-fl-GUp">
                             <connections>
                                 <segue destination="bbT-aG-M25" kind="unwind" unwindAction="unwindWithSegue:" id="q6w-jW-7aV"/>
                             </connections>
